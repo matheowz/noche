@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de inicio de sesión</title>
+  </head>
+  <body><style>
+    h1 {
+      text-align: center;
+    }
+    form {
+      margin: auto;
+      width: 50%;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 8px 16px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #f7c6c6;
+      box-sizing: border-box;
+    }
+     input[type=submit] {
+      background-color: #4e02ff;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    
+    }
+
+    input[type=submit] {
+      background-color: #4e02ff;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    
+    }
+    input[type=submit] {
+      background-color: #4e02ff;
+      color: white;
+    }
+    input[type=hi] {
+      background-color: #4e02ff;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  a{
+    display: block;
+    width: 67px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #4e02ff;
+    color: white;
+    padding: 15px 30px;
+    margin: 8px;
+    border-radius: 10px;
+    width: 32%;
+    text-align: center;
+
+    
+
+  }
+  a:hover{
+    background-color: transparent;
+    border: #4e02ff solid 2px;
+    color: #4e02ff;
+
+  }
+    
+  </style>
+  
+    <h1>Login</h1>
+    <form>
+      <label for="usuario">Usuario:</label>
+      <input type="text" id="usuario" name="usuario"><br><a href="Untitled-1.html">Registrate perra</a><br>
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <a type="hi" id="Iniciar sesion" href="inicio.html"
+      target="_blank">Iniciar sesion</a><br>
+    </form>
+  </body>
+</html>
